@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package calculator;
+option go_package="calculator/calculatorpb";
+
+message OneNumberRequest {
+  int64 number = 1;
+}
+
+message TwoNumbersRequest {
+  int32 number_one = 1;
+  int32 number_two = 2;
+}
+
+message CalculatorResponse {
+  string result = 1;
+}
+
+service CalculatorService{
+  // Unary API
+  rpc Sum(TwoNumbersRequest) returns (CalculatorResponse) {};
+  rpc Divide(TwoNumbersRequest) returns (CalculatorResponse) {};
+  rpc Multiply(TwoNumbersRequest) returns (CalculatorResponse) {};
+  // stream API
+  rpc PrimeNumberDecomposition(OneNumberRequest) returns (stream CalculatorResponse) {};
+}
