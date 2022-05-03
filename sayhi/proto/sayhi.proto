@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package sayhi;
+
+option go_package = "github.com/iugmali/golang-grpc-course/sayhi/proto";
+
+message SayhiRequest {
+  string first_name = 1;
+}
+
+message SayhiResponse {
+  string result = 1;
+}
+
+service SayhiService {
+  rpc Sayhi (SayhiRequest) returns (SayhiResponse);
+}
