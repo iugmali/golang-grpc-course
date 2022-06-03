@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66d202d4-a1af-4c35-afe8-f2f8141f1be5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greet/server/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sayhi/client/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sayhi/proto/sayhi.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sayhi/server/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/golang-grpc-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/golang-grpc-course.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/calculator_client/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/calculator_server/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/calculatorpb/calculator.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/calculatorpb/calculator.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/greet/greet_client/client.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/greet/greet_server/server.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/greet/greetpb/greet.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/greet/greetpb/greet.proto" beforeDir="false" afterPath="$PROJECT_DIR$/greet/proto/greet.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/greet/client" beforeDir="false" afterPath="$PROJECT_DIR$/bin/greet/client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/greet/server" beforeDir="false" afterPath="$PROJECT_DIR$/bin/greet/server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/client/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/proto/calculator.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/proto/calculator.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/proto/calculator.proto" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/proto/calculator.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/proto/calculator_grpc.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/proto/calculator_grpc.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/calculator/server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greet/client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/greet/client/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greet/proto/greet.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/greet/proto/greet.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greet/proto/greet.proto" beforeDir="false" afterPath="$PROJECT_DIR$/greet/proto/greet.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greet/proto/greet_grpc.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/greet/proto/greet_grpc.pb.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+  </component>
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,6 +44,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+  </component>
   <component name="ProjectId" id="1ie9IXsoaJQKaNrPqQP82mRsLyD" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -54,36 +55,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
-    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/iugmali/go/src/github.com/iugmali/golang-grpc-course&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;goland.project.structure&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go Application",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "configurable..is.expanded": "false",
+    "configurable.GoLibrariesConfigurable.is.expanded": "true",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/home/iugmali/go/src/github.com/iugmali/golang-grpc-course",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/calculator/calculator_client" />
       <recent name="$PROJECT_DIR$/calculator/calculator_server" />
     </key>
   </component>
-  <component name="RunManager" selected="Makefile Target.sayhi">
+  <component name="RunManager" selected="Makefile Target.greet">
     <configuration name="greet" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="greet" workingDirectory="" arguments="">
         <envs />
@@ -111,6 +112,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Makefile Target.greet" />
+      <item itemvalue="Makefile Target.sayhi" />
+      <item itemvalue="Shell Script.generate.sh" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Makefile Target.sayhi" />
