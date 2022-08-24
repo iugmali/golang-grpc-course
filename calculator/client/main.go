@@ -20,5 +20,6 @@ func main() {
 	//doSimpleSum(calculator_client)
 	//doPrimes(calculatorClient)
 	//doAvg(calculatorClient)
-	doMax(calculatorClient)
+	//doMax(calculatorClient)
+	doSqrt(calculatorClient, 10)
 }
