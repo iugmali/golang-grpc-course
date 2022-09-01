@@ -16,5 +16,8 @@ func main() {
 	}
 	defer conn.Close()
 	c := pb.NewBlogServiceClient(conn)
-	createBlog(c)
+	id := createBlog(c)
+	readBlog(c, id)
+	readBlog(c, "nonExistingId")
+	updateBlog(c, id)
 }
